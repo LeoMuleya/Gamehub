@@ -1,0 +1,122 @@
+body { background-color: rgb(17, 5, 27);
+  color: rgb(190, 199, 139);
+  margin-bottom: 20%;
+
+}
+  p 
+  {
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+  }
+  .mybox
+  {
+    border: none;
+    padding: 5px;
+    width: 218px;
+    height:150px;
+    overflow: scroll;
+    float: right;
+    margin-top: 3px;
+    margin-left: 100%;
+  }
+  ::-webkit-scrollbar
+  {
+    width: 12px;
+    height: 12px;
+  }
+  ::-webkit-scrollbar-track
+  {
+    border: 1px solid yellowgreen;
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb:hover 
+  {
+    background-color: #88ba1c;
+  }
+
+  .topnav 
+  {
+      overflow: hidden;
+      background:rgb(2,0,36);
+      background: linear-gradient(90deg,
+       rgb(17, 5, 27)5%,
+       rgba(9,9,121,1)35%,
+       rgb(126, 5, 5)100%);
+      text-decoration:none;
+      font-size: 17px;
+  }
+  .topnav a:hover
+  {
+    background-color: rgb(17, 5, 27);
+    color: rgb(167, 9, 9);
+  }
+  .topnav a.active
+  {
+    background-color: rgba(9,9,121,1);
+    color: white;
+  }
+  .topnav a 
+  {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 10px;
+  }
+      .game-hub 
+      {
+        font-size: 30px;
+        font-family:Serif;
+        color: rgb(255, 255, 255);
+        padding-top: 20px;px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: rgb(126, 5, 5); 
+        border-bottom-left-radius: 50%;
+        border-bottom-right-radius: 50%;
+        text-align: center;
+        font-weight: bolder;
+        cursor: pointer;
+        transition: 0.35s;
+        margin-bottom: 30px;
+        
+      }
+      .game-hub:hover
+      {
+        background-color: rgba(9,9,121,1);
+        font-family: sans-serif;
+        font-size: 35px;
+        text-shadow: 0 0 50px rgb(0, 0, 0);
+       
+      }
+      .header1
+      {
+        text-align: center;
+        margin-bottom: 30px;
+      }
+      .header2
+      {
+        max-font-size: 72px;
+        background:-webkit-linear-gradient(
+          #eb00f7, #ffffff
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color:transparent;
+        font-weight: bold;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-shadow: 0 0 20px rgb(176, 49, 215);
+
+        font-size: 50px;
+        line-height: 70px;
+        margin-left: 20px;
+        text-align: center;
+      }
+      .search-bar
+      {
+        height: 20px;
+        width: 100%;
+        display: block;
+      }
+    
